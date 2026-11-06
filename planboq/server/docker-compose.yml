@@ -1,0 +1,10 @@
+services:
+  planboq-api:
+    build: .
+    container_name: planboq-api
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      # generate one with: openssl rand -hex 32
+      - PLANBOQ_API_KEY=${PLANBOQ_API_KEY:-}
+    restart: unless-stopped

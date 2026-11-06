@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PlanBOQ</string>
+
+    <string name="disclaimer_traced">Traced from image. Verify dimensions against site measurements before construction.</string>
+    <string name="disclaimer_general">Quantities and dimensions are estimates. Verify all outputs before use in construction.</string>
+
+    <string name="cd_capture">Capture photo</string>
+    <string name="cd_delete_line">Delete selected line</string>
+    <string name="cd_add_line">Add line mode</string>
+    <string name="cd_export">Export plan</string>
+    <string name="cd_layers">Layers</string>
+    <string name="cd_undo">Undo</string>
+</resources>

@@ -1,0 +1,20 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin/Native / misc
+*.hprof
+
+# Server
+server/.env
+server/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

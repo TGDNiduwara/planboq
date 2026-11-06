@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Floor-plan motif: outer walls, internal partition and a door opening. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer wall -->
+    <path
+        android:pathData="M30,30 L78,30 L78,78 L30,78 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000" />
+    <!-- Internal wall with door gap -->
+    <path
+        android:pathData="M54,30 L54,52"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M54,66 L54,78"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3" />
+    <!-- Door swing -->
+    <path
+        android:pathData="M54,66 A14,14 0 0 1 68,52"
+        android:strokeColor="#8ECDDD"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+    <!-- Dimension tick -->
+    <path
+        android:pathData="M30,86 L78,86"
+        android:strokeColor="#8ECDDD"
+        android:strokeWidth="1.5" />
+    <path
+        android:pathData="M30,83 L30,89 M78,83 L78,89"
+        android:strokeColor="#8ECDDD"
+        android:strokeWidth="1.5" />
+</vector>
